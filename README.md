@@ -1,3 +1,6 @@
+# SK-PHP_SELECTOR WITH MEMCACHED
+phpXX-pecl-memcached phpXX-pecl-memcache
+
 # sk-php-selector
 PHP selector for centos 6/7 
 
