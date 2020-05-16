@@ -83,7 +83,7 @@ echo "Skip PHP 7.3 actually installed"
 else
 tput setaf 2
     echo "Installing PHP 7.3"
-yum install -y php73-php-imap php73-php-process php73-php-pspell php73-php-xml php73-php-xmlrpc php73-php-pdo php73-php-ldap php73-php-pecl-zip php73-php-common php73-php php73-php-mcrypt php73-php-gmp php73-php-mysqlnd php73-php-mbstring php73-php-gd php73-php-tidy php73-php-pecl-memcache --enablerepo=remi  >> $sklog
+yum install -y php73-php-imap php73-php-process php73-php-pspell php73-php-xml php73-php-xmlrpc php73-php-pdo php73-php-ldap php73-php-pecl-zip php73-php-common php73-php php73-php-mcrypt php73-php-gmp php73-php-mysqlnd php73-php-mbstring php73-php-gd php73-php-tidy php73-php-pecl-memcache php73-php-pecl-memcached --enablerepo=remi  >> $sklog
 echo "......."
 
 fixit 73
@@ -110,7 +110,7 @@ echo "Skip php 5.6 actually installed"
 else
 tput setaf 2
 echo "Instaling PHP 5.6"
-yum install -y php56-php-imap php56-php-process php56-php-pspell php56-php-xml php56-php-xmlrpc php56-php-pdo php56-php-ldap php56-php-pecl-zip php56-php-common php56-php php56-php-mcrypt php56-php-mysqlnd php56-php-gmp php56-php-mbstring php56-php-gd php56-php-tidy php56-php-pecl-memcache --enablerepo=remi  >> $sklog
+yum install -y php56-php-imap php56-php-process php56-php-pspell php56-php-xml php56-php-xmlrpc php56-php-pdo php56-php-ldap php56-php-pecl-zip php56-php-common php56-php php56-php-mcrypt php56-php-mysqlnd php56-php-gmp php56-php-mbstring php56-php-gd php56-php-tidy php56-php-pecl-memcache php56-php-pecl-memcached --enablerepo=remi  >> $sklog
 echo "......."
 
 fixit 56
